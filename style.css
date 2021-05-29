@@ -1,0 +1,46 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background: rgba(49, 42, 160, 0.356);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#seletor{
+    width: 300px;
+    margin: 0 auto;
+}
+
+nav{
+
+    display: flex;
+}
+
+button{
+    padding:5px 12px;
+    border-radius: 0px;
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(7, 7, 7, 0.514);
+    border: 1px solid rgba(0, 0, 199, 0.247);
+}
+
+button:hover{
+    background: rgba(255, 255, 255, 0.5);
+    color: rgba(2, 11, 138, 0.514);
+}
+
+button:not(:first-child){
+    border-left: 0;
+}
+
+.primeiro{
+    border-radius: 5px 0 0 5px;
+    padding-bottom: 7px;
+}
+
+.ultimo{
+    padding-bottom: 7px;
+    border-radius: 0 5px 5px 0;
+}
